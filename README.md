@@ -8,5 +8,6 @@ with 3 filter = 12.5
 
 The user can introduce an array (of N lenght) of integers whch represent the emissions of each factory of a company. The application will reduce the overall emission by at least 50% using the least amount of filters possible.
 
-![image](https://user-images.githubusercontent.com/86546157/153436683-02f5f222-95bc-4b28-ad8f-0f956c7b80dc.png)
-![image](https://user-images.githubusercontent.com/86546157/153436698-5c3adba8-f64a-4c1c-a585-e123c8178b75.png)
+![image](https://user-images.githubusercontent.com/86546157/153931532-2e543d9c-dafe-421f-8776-bffc24c84d17.png)
+![image](https://user-images.githubusercontent.com/86546157/153931578-f5365ece-eb33-4c75-b66f-4b21bdf6cfe5.png)
+
