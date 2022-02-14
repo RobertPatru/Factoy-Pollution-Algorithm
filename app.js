@@ -17,7 +17,7 @@ let arr = [];
 addBtn.addEventListener('click', (event) => {
     arr.push(Number(input.value));
    
-    document.querySelector('.show-numbers-introduced').textContent = arr;
+    document.querySelector('.show-numbers-introduced').textContent = arr.join(" / ");
  
     event.preventDefault();
 });
@@ -73,12 +73,14 @@ function numberOfFilterToAdd(arr) {
        
     } while (target < currentPollutionLevel);
    
+    arr.toString();
+    highestToLowest1.toString();
+    highestToLowest.toString();
     
-
-    firstArray.textContent = arr;
-    sortedArray.textContent = highestToLowest1;
+    firstArray.textContent = arr.join(" / ");
+    sortedArray.textContent = highestToLowest1.join(" / ");
     pollutionLevelP.textContent = polutionLevel;
-    newlyFactoryPopulation.textContent = highestToLowest;
+    newlyFactoryPopulation.textContent = highestToLowest.join(" / ")
     pollutionTargetP.textContent = target;
     currentPollutionLevelP.textContent = currentPollutionLevel;
     numberOfFiltersUsed.textContent = filters;

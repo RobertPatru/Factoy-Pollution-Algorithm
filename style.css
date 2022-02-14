@@ -5,18 +5,24 @@
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    background: url('/img/bg1.jpeg') no-repeat;
 }
 
 h1 {
     display: flex;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 25px;
 }
 
 p {
-    font-weight: 400;
-    letter-spacing: 5px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin-left: 15px;
+  
 }
 
 a {
@@ -34,13 +40,14 @@ body {
 }
 
 .container {
-    background-color: rgba(131, 130, 130, 0.2);
     border: 2px black solid;
     padding: 50px 20px;
+    box-shadow: 0 0 10px black;
 }
 
 
 .input-container {
+    font-family: 'Oswald', sans-serif;
     display: grid;
     grid-gap: 5px;
     grid-template-areas: 
@@ -55,6 +62,7 @@ body {
 
 .labal-pollution-level {
     grid-area: label-pollution-level;
+    font-size: 18px;
 }
 
 #input {
@@ -78,6 +86,7 @@ body {
 
 .number-introduced {
     grid-area: number-introduced;
+    font-weight: 400;
    
 }
 
@@ -87,8 +96,9 @@ body {
     overflow-wrap: break-word;
     margin-top: 5px;
     margin-bottom: 50px;
-    letter-spacing: 10px;
+    /* letter-spacing: 10px; */
     font-size: 20px;
+    font-weight: 400;
 }
 
 .calculate-btn {
@@ -134,4 +144,19 @@ body {
 
 .result {
     display: none;
+    padding: 20px 40px;
+
+    border: 2px black solid;
+    box-shadow: 0 0 10px black;
+    background: rgba(7, 7, 7, 0.2);
+}
+
+.firstArray,
+.sortedArray,
+.pollutionLevel,
+.newlyFactoryPopulationP,
+.pollutionTarget,
+.currentPollutionLevelP,
+.number-of-filters-used {
+    font-weight: 400;
 }
